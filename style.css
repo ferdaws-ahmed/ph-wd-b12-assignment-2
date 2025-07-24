@@ -1,0 +1,444 @@
+/* google fonts */
+     /* noto serif & inter */
+     @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* google fonts */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    
+    height: 500vh;
+}
+
+
+/* common style */
+
+                   /* span tag */
+                        span{
+                            color: #E95A08;
+                        }
+                   /* span tag */
+                   
+                   /* text color */
+                        .text-color-1{
+                              font-family: "Inter", sans-serif;
+
+                            font-size: 22px;
+                            color: rgba(0, 0, 0, 0.5);
+                        }
+                   /* text color */
+/* common style */
+
+
+
+/*    header section style */
+        
+      /* navbar section style */
+                .navbar{
+                     display: flex;
+                     justify-content: space-between;
+                     align-items: center;
+                     
+
+                     width: 100%;
+                     padding: 30px 100px;
+                }
+                .navbar .nav-items{
+                    
+                }
+
+                .navbar .nav-items ul{
+                    display: flex;
+                    align-items: center;
+                    gap: 50px;
+                    flex-wrap: wrap;
+                    justify-content: flex-end;
+
+                }
+
+                .navbar .nav-items ul li{
+                    
+                    list-style: none;
+                   
+                }
+                .navbar .nav-items ul li .cart-icon{
+                    display: flex;
+                    gap: 15px;
+                    align-items: center;
+                    
+                }
+                .navbar .nav-items ul li .icon-desc{
+                    white-space: nowrap;
+                    
+                }
+                .navbar .nav-items ul li a{
+                    text-decoration: none;
+                }
+
+                .navbar .nav-items ul li a.home{
+                    color: #252432;
+                    font-weight: bold;
+                }
+                .navbar .nav-items ul li a.shop ,.about{
+                    color: #8987A1;
+                }
+      /* navbar section style */
+
+      /* banner section style */
+
+                .banner-section{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    margin-top: 100px;
+
+                    padding: 30px 100px;
+                }
+                .banner-section .banner-desc{
+                    
+                }
+                .banner-section .banner-desc h1{
+                    font-family: "Noto Serif";
+                    font-size: 65px;
+                    font-weight: bold;
+                    color: #000000;
+                }
+                .banner-section .banner-desc p{
+                    width: 68%;
+                    margin-top: 20px;
+
+                }
+                .banner-section img{
+                    
+                }
+      /* banner section style */
+
+/*    header section style */
+
+
+/*     main section style    */
+                /* plants section */
+                       /* plants desc part */
+                            main .plants-section{
+                                padding: 30px 100px;
+                                margin-top: 50px;
+                                
+                            }
+
+                            main .plants-section .plants-section-desc{
+                                text-align: center;
+                            }
+                            main .plants-section .plants-section-desc h1{
+                                font-family: "Noto Serif";
+                                font-size: 50px;
+                                font-weight: bold;
+                            }
+                            main .plants-section .plants-section-desc p{
+                                width: 65%;
+                                margin:0 auto;
+                                margin-top: 20px;
+                            }
+                       /* plants desc part */
+
+                       /* plants cards */
+
+
+                           main .plants-section .plants-section-cards{
+                                            margin-top: 50px;
+                                            
+                                            display: grid;
+                                            grid-template-columns: repeat(4,1fr);
+                                            gap: 65px;
+                                            
+                                        }
+                            main .plants-section .card{
+                                text-align: center;
+                            }
+                            main .plants-section .card img{
+                                width: 100%;
+                            }
+                            main .plants-section .card h5{
+                                font-family: "Inter";
+                                font-size: 22px;
+                                font-weight: 500;
+                                color: #111111;
+                                margin-top: 10px;
+                            }
+                            main .plants-section .card h4{
+                                font-family: "Inter";
+                                font-size: 22px;
+                                font-weight: bold;
+                                color: #111111;
+                                margin-top: 10px;
+                            }
+                            main .plants-section .card button{
+                                margin-top: 10px;
+                                width: 100%;
+                                padding: 1.25rem 5rem;
+
+                                font-family: "Inter";
+                                font-size: 1rem;
+                                font-weight: 600;
+                                color: white;
+                                white-space: nowrap;
+
+                                border: none;
+                                background-color: #E95A08;
+                            }
+                       /* plants cards */
+                /* plants section */
+
+
+                /* plants lover section */
+                                     main .plants-lover-section{
+                                        margin-top: 150px;
+                                        padding: 30px 100px;
+                                        display: flex;
+                                        gap: 150px;
+                                        
+                                     }
+                                     main .plants-lover-section .lover-img-section{
+                                        
+                                     }
+                                     main .lover-img-section{
+                                        position: relative;
+                                        
+                                     }
+                                     
+                                     main .lover-img-section .img-2{
+                                        width: 385px;
+                                        height: 385px;
+
+                                        position: absolute;
+                                        top: -175px;
+                                        right: -175px;
+                                        
+                                     }
+                                     main .lover-img-section img.img-2{
+                                        
+                                        
+                                     }
+                                     main .lover-desc-section{
+                                        height: 100%;
+                                        margin: auto 0;
+                                     }
+                                     main .lover-desc-section ul{
+                                        margin-left: 40px;
+                                        margin-top: 20px;
+                                     }
+                                     main .lover-desc-section h1{
+                                        font-family: "Noto Serif";
+                                        font-size: 50px;
+                                        font-weight: bold;
+                                        color: #000000;
+
+                                        width: 80%;
+                                     }
+                                     main .lover-desc-section p{
+                                        width: 90%;
+                                     }
+                            /* plants lover section */
+
+
+
+                            /* latest deal section */
+                                    main .latest-deal-section{
+                                        margin-top: 100px;
+                                        padding: 30px 100px;
+                                    }
+                                    main .latest-deal-section .latest-deal-desc{
+                                        text-align: center;
+                                    }
+                                    main .latest-deal-desc h1{
+                                        font-family: "Noto Serif";
+                                        font-size: 50px;
+                                        font-weight: bold;
+                                        color:#000000;
+                                    }
+                                    main .latest-deal-desc p{
+                                        width: 65%;
+                                        margin: 0 auto;
+                                        margin-top: 20px;
+                                    }
+                            /* latest deal section */
+
+                
+/*     main section style    */
+
+
+
+
+
+
+
+
+
+
+/* responsive design for mobile devices  */
+               
+               
+                        
+                              @media screen and (max-width:576px) {
+                            body{
+                               
+                            }
+                     /* header section style */
+                            /* navbar */
+                            .navbar{
+                                padding: 20px;
+                            }
+
+                            
+
+                            .home,.shop,.about{
+                                display: none;
+                            }
+                            .navbar .nav-items ul li .cart-icon{
+                                justify-content: center;
+                            }
+                            .navbar .nav-items ul li .icon-desc{
+                               max-width: 80px;
+                            }
+                             /* navbar */
+
+
+
+                             /* banner section */
+                            .banner-section{
+                                flex-direction: column-reverse;
+                                gap: 20px;
+                                padding: 0;
+                            }
+                            .banner-section .banner-desc{
+                                padding: 20px;
+                            }
+                            .banner-section .banner-desc h1{
+                                width: 60%;
+                                font-size: 24px;
+                            }
+                            .banner-section img{
+                                width: 100%;
+                            }
+                             /* banner section */
+                    /* header section style */
+
+
+
+                    /* main section style */
+                            /* plants section  */
+                                   /* plants desc part */
+                                        main .plants-section{
+                                            padding: 20px ;
+                                        }
+
+                                        main .plants-section .plants-section-desc h1{
+                                            width: 100%;
+                                            font-size: 24px;
+                                        }
+                                        main .plants-section .plants-section-desc p{
+                                            width: 95%;
+                                            font-size: 14px;
+                                        }
+                                   /* plants desc part */
+
+                                   /* plants cards */
+                                        main .plants-section .plants-section-cards{
+                                            margin-top: 50px;
+                                            
+                                            
+                                            
+                                        }
+                                        main .plants-section .plants-section-cards{
+                                            grid-template-columns: repeat(2,1fr);
+                                            gap: 15px;
+                                            
+                                        }
+                                        main .plants-section .card{
+                                            width: 100%;
+                                        }
+                                        main .plants-section .card h5{
+                                            font-size: 16px;
+                                        }
+                                        main .plants-section .card h4{
+                                            font-size: 16px;
+                                        }
+                                        main .plants-section .card button{
+                                            padding: 1.25rem 1.8rem;
+                                        }
+
+                                   /* plants cards */
+                            /* plants section  */
+
+                            
+                            /* plants lover section */
+                                       main .plants-lover-section{
+                                        padding: 20px;
+                                        text-align: center;
+                                        flex-direction: column;
+                                        gap: 40px;
+                                       }
+                                       main .lover-img-section img.img-1 {
+                                        width: 100%;
+                                     }
+                                       main .lover-img-section .img-2{
+                                        display: none;
+                                       }
+                                       main .lover-desc-section h1{
+                                        font-size: 24px;
+                                        text-align: left;
+                                       }
+                                       main .lover-desc-section p{
+                                        font-size: 14px;
+                                        width: 100%;
+                                        text-align: left;
+                                       }
+                            /* plants lover section */
+
+
+
+                            /* latest deal section */
+                                    main .latest-deal-section{
+                                        padding: 20px;
+                                    }
+                                    main .latest-deal-section .latest-deal-desc{
+                                        
+                                    }
+                                    main .latest-deal-desc h1{
+                                        
+                                        font-size: 24px;
+                                        
+                                        
+                                    }
+                                    main .latest-deal-desc p{
+                                        width: 87%;
+                                        margin: 0 auto;
+                                        margin-top: 15px;
+                                        
+                                        font-family: "Inter";
+                                        font-size: 14px;
+                                        
+                                        text-align:center;
+                                        
+                                    }
+                            /* latest deal section */
+
+                            
+               /* main section style */
+
+                        }
+                       
+
+
+                        
+               
+
+
+
+               
+/* responsive design for mobile devices  */
