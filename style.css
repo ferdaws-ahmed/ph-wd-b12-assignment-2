@@ -13,7 +13,7 @@
 
 body{
     
-    height: 500vh;
+    height: 1000vh;
 }
 
 
@@ -49,9 +49,7 @@ body{
                      width: 100%;
                      padding: 30px 100px;
                 }
-                .navbar .nav-items{
-                    
-                }
+                
 
                 .navbar .nav-items ul{
                     display: flex;
@@ -100,9 +98,7 @@ body{
 
                     padding: 30px 100px;
                 }
-                .banner-section .banner-desc{
-                    
-                }
+                
                 .banner-section .banner-desc h1{
                     font-family: "Noto Serif";
                     font-size: 65px;
@@ -114,9 +110,7 @@ body{
                     margin-top: 20px;
 
                 }
-                .banner-section img{
-                    
-                }
+                
       /* banner section style */
 
 /*    header section style */
@@ -203,9 +197,7 @@ body{
                                         gap: 150px;
                                         
                                      }
-                                     main .plants-lover-section .lover-img-section{
-                                        
-                                     }
+                                     
                                      main .lover-img-section{
                                         position: relative;
                                         
@@ -220,10 +212,7 @@ body{
                                         right: -175px;
                                         
                                      }
-                                     main .lover-img-section img.img-2{
-                                        
-                                        
-                                     }
+                                     
                                      main .lover-desc-section{
                                         height: 100%;
                                         margin: auto 0;
@@ -266,6 +255,126 @@ body{
                                         margin: 0 auto;
                                         margin-top: 20px;
                                     }
+
+
+                                    /* latest deal cards section */
+                                            main .latest-deal-card{
+                                                display: grid;
+                                                grid-template-areas: 
+                                                   
+                                                     "img-1 img-2 "
+                                                     "img-3 img-2 "
+                                                ;
+
+
+                                                margin-top: 50px;
+                                                
+
+                                                align-items:center;
+                                                justify-content: space-between;
+                                                gap: 20px;
+                                                
+                                            }
+                                            main .latest-deal-card .card-1{
+                                                width: 420px;
+                                                height: 200px;
+                                                border-radius: 10px;
+                                                background: url(./assets/deal-bloom.png);
+                                                background-repeat: no-repeat;
+                                                background-size: cover;
+
+                                                position: relative;
+                                                
+                                                grid-area: img-1;
+                                                
+                                            }
+                                            main .latest-deal-card  h4, a{
+                                                z-index: 5;
+                                            }
+                                            main .latest-deal-card .card-1::before{
+                                                content: '';
+                                                position: absolute;
+                                                top: 0;
+                                                left: 0;
+                                                width: 100%;
+                                                height: 100%;
+
+                                                border-radius: 10px;
+                                                background-color: rgba(0, 0, 0, 0.4);
+                                                z-index: 1;
+                                            }
+
+
+
+                                            main .latest-deal-card .card-2{
+                                                background: url(./assets/deal-zabo.png);
+                                                background-size: cover;
+                                                background-repeat: no-repeat;
+                                                width: 790px;
+                                                height: 420px;
+                                                border-radius: 10px;
+
+                                                position: relative;
+                                                grid-area: img-2;
+                                            }
+                                            main .latest-deal-card .card-2::before{
+                                                content: '';
+                                                position: absolute;
+                                                top: 0;
+                                                left: 0;
+                                                width: 100%;
+                                                height: 100%;
+
+                                                border-radius: 10px;
+                                                background-color: rgba(0, 0, 0, 0.4);
+                                                z-index: 1;
+                                            }
+
+
+
+
+
+                                            main .latest-deal-card .card-3{
+                                                
+                                                background: url(./assets/deal-ana.png);
+                                                background-repeat: no-repeat;
+                                                background-size: cover;
+                                                width: 420px;
+                                                height: 200px;
+                                                border-radius: 10px;
+
+                                                position: relative;
+                                                grid-area: img-3;
+                                            }
+                                            main .latest-deal-card .card-3::before{
+                                                content: '';
+                                                position: absolute;
+                                                top: 0;
+                                                left: 0;
+                                                width: 100%;
+                                                height: 100%;
+
+                                                border-radius: 10px;
+                                                background-color: rgba(0, 0, 0, 0.4);
+                                                z-index: 1;
+                                            }
+
+                                            .style-card{
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                            }
+                                            main .latest-deal-card h4{
+                                                font-family: "Noto Serif";
+                                                font-size: 1.25rem;
+                                                color: white;
+                                            }
+                                            main .latest-deal-card a{
+                                                color: white;
+                                                margin-top: 10px;
+                                            }
+                                    /* latest deal cards section */
                             /* latest deal section */
 
                 
@@ -285,9 +394,7 @@ body{
                
                         
                               @media screen and (max-width:576px) {
-                            body{
-                               
-                            }
+                            
                      /* header section style */
                             /* navbar */
                             .navbar{
@@ -406,9 +513,7 @@ body{
                                     main .latest-deal-section{
                                         padding: 20px;
                                     }
-                                    main .latest-deal-section .latest-deal-desc{
-                                        
-                                    }
+                                    
                                     main .latest-deal-desc h1{
                                         
                                         font-size: 24px;
@@ -426,6 +531,27 @@ body{
                                         text-align:center;
                                         
                                     }
+
+
+                                    /* latest deal cards section */
+
+                                    main .latest-deal-card{
+                                        grid-template-areas: 
+                                            'img-1'
+                                            'img-3'
+                                            'img-2'
+                                        ;
+
+                                        justify-content: center;
+                                    }
+
+                                    main .latest-deal-section .card-1 ,
+                                    main .latest-deal-section .card-2 ,
+                                    main .latest-deal-section .card-3{
+                                        width: 360px;
+                                        height: 180px;
+                                    }
+                                    /* latest deal cards section */
                             /* latest deal section */
 
                             
