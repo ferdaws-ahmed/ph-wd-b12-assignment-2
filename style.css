@@ -377,6 +377,64 @@ body{
                                     /* latest deal cards section */
                             /* latest deal section */
 
+
+
+
+                            /* join section style */
+
+                                            main .join-section{
+                                                width: 100%;
+                                                height: 530px;
+                                                background: url(./assets/news-letter-bg.png);
+                                                background-repeat: no-repeat;
+                                                background-size: cover;
+
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                flex-direction: column;
+
+                                                margin-top: 100px;
+                                            }
+                                            main .join-section h1{
+                                                font-family: "Noto Serif";
+                                                font-size: 50px;
+                                                font-weight: bold;
+                                                color: white;
+
+                                                margin-bottom: 20px;
+                                            }
+                                            main .join-section input{
+                                                width: 645px;
+                                                height: 64px;
+                                                padding-left: 15px;
+                                            }
+                                            main .join-section input[type="email"]::-webkit-input-placeholder{
+                                                font-family: "Inter";
+                                                font-weight: 400;
+                                                font-size: 16px;
+                                                color: rgba(0, 0, 0, 0.5);
+                                            }
+
+                                            main .join-section button{
+                                                padding: 21px 54px;
+                                                background-color: #E95A08;
+
+                                                border: none;
+                                                color: white;
+
+                                                font-family: "Inter";
+                                                font-weight: 600;
+                                                font-size: 16px;
+                                            }
+
+                                            main .join-section .join-input{
+                                                display: flex;
+                                            }
+
+                                            
+                            /* join section style */
+
                 
 /*     main section style    */
 
@@ -553,6 +611,31 @@ body{
                                     }
                                     /* latest deal cards section */
                             /* latest deal section */
+
+
+
+
+                            /* join section */
+
+
+                                  main .join-section{
+                                    width: 100%;
+                                    height: 275px;
+                                    background-size: cover;
+                                  }
+
+                                  main .join-section h1{
+                                    font-size: 20px;
+                                    margin-top: 50px;
+                                  }
+                                  main .join-section input{
+                                    width: 218px;
+                                    height: 50px;
+                                  }
+                                  main .join-section button{
+                                    padding: 13px 12px;
+                                  }
+                            /* join section */
 
                             
                /* main section style */
