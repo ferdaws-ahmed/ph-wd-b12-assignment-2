@@ -11,10 +11,7 @@
     
 }
 
-body{
-    
-    
-}
+
 
 
 /* common style */
@@ -65,6 +62,13 @@ body{
                     list-style: none;
                    
                 }
+                .navbar .nav-items ul li:hover{
+                    
+                    cursor: pointer;
+                    color: #E95A08;
+                   
+                }
+
                 .navbar .nav-items ul li .cart-icon{
                     display: flex;
                     gap: 15px;
@@ -184,6 +188,16 @@ body{
 
                                 border: none;
                                 background-color: #E95A08;
+                                cursor: pointer;
+                            }
+                            main .plants-section .card button:hover{
+                                box-shadow: 5px 10px 10px rgb(10, 10, 10);
+                                transition: 0.2s;
+                            }
+                            main .plants-section .card button:active{
+                                box-shadow: 0 0 20px rgb(227, 11, 69);
+                                transition: 0.01s;
+                                color: rgb(140, 135, 136);
                             }
                        /* plants cards */
                 /* plants section */
@@ -211,8 +225,18 @@ body{
                                         top: -175px;
                                         right: -175px;
 
-                                        filter: drop-shadow(-5px 10px 4px);
+                                        filter: drop-shadow(0 0 5px);
+
                                         
+                                        animation: rotationImg 30s linear infinite;
+                                     }
+                                     @keyframes rotationImg {
+                                        from{
+                                            transform: rotate(0deg);
+                                        }
+                                        to{
+                                            transform: rotate(360deg);
+                                        }
                                      }
                                      
                                      main .lover-desc-section{
@@ -305,6 +329,21 @@ body{
                                                 background-color: rgba(0, 0, 0, 0.4);
                                                 z-index: 1;
                                             }
+                                            main .latest-deal-card .card-1:hover::before{
+                                                background-color: rgba(0, 0, 0, 0.001);
+                                            }
+                                            main .latest-deal-card .card-1:hover::after{
+                                                content: '';
+                                                position: absolute;
+                                                top: 0;
+                                                left: 0;
+                                                width: 100%;
+                                                height: 100%;
+
+                                                border-radius: 10px;
+                                                background-color: rgba(0, 0, 0, 0.2);
+                                                z-index: 2;
+                                            }
 
 
 
@@ -331,6 +370,22 @@ body{
                                                 background-color: rgba(0, 0, 0, 0.4);
                                                 z-index: 1;
                                             }
+                                            main .latest-deal-card .card-2:hover::before{
+                                                background-color: rgba(0, 0, 0, 0);
+                                            }
+                                            main .latest-deal-card .card-2:hover::after{
+                                                content: '';
+                                                position: absolute;
+                                                top: 0;
+                                                left: 0;
+                                                width: 100%;
+                                                height: 100%;
+
+                                                border-radius: 10px;
+                                                background-color: rgba(0, 0, 0, 0.2);
+                                                z-index: 2;
+                                            }
+                                            
 
 
 
@@ -360,6 +415,26 @@ body{
                                                 background-color: rgba(0, 0, 0, 0.4);
                                                 z-index: 1;
                                             }
+                                             main .latest-deal-card .card-3:hover::before{
+                                                background-color: rgba(0, 0, 0, 0);
+                                             }
+                                             main .latest-deal-card .card-3:hover::after{
+                                                content: '';
+                                                position: absolute;
+                                                top: 0;
+                                                left: 0;
+                                                width: 100%;
+                                                height: 100%;
+
+                                                border-radius: 10px;
+                                                background-color: rgba(0, 0, 0, 0.2);
+                                                z-index: 2;
+                                            }
+
+
+
+
+
 
                                             .style-card{
                                                 display: flex;
@@ -433,6 +508,12 @@ body{
                                                 font-size: 16px;
                                                 cursor: pointer;
                                             }
+                                            main .join-section button:hover{
+                                                background-color: #ff5e00;
+                                            }
+                                            main .join-section button:active{
+                                                color: rgb(157, 149, 133);
+                                            }
 
                                             main .join-section .join-input{
                                                 display: flex;
@@ -467,6 +548,7 @@ body{
                                             }
                                             .footer-container .logo-section p{
                                                 width: 76%;
+                                                margin-top: 20px;
                                             }
                                             
 
@@ -492,7 +574,7 @@ body{
                                                 
                                             }
                                             .footer-container .link-section a:hover{
-                                                text-decoration: underline;
+                                                text-decoration: underline rgb(230, 101, 101);
                                             }
 
                                             .footer-container .social-icon img{
@@ -502,6 +584,11 @@ body{
                                                 display: flex;
                                                 align-items: center;
                                             }
+                                             .footer-container .icons img:hover{
+                                                cursor: pointer;
+                                                filter: grayscale(100%);
+                                            }
+                                            
                                             
                                             
 
@@ -710,6 +797,45 @@ body{
 
                             
                /* main section style */
+
+
+
+
+               /* footer section style */  
+                                  
+                                 .footer-section{
+                                    padding: 20px;
+                                 }
+                                .footer-container{
+                                    flex-direction: column;
+                                    justify-content: flex-start;
+                                }
+                                .footer-container .other-section{
+                                    flex-direction: column;
+                                }
+                                .footer-container .logo-section{
+                                                width: 90%;
+                                                
+                                            }
+                                .footer-container .logo-section p{
+                                               width: 85%;
+                                            }
+                                .footer-container{
+                                                display: flex;
+                                                
+                                                
+                                            }
+                                .footer-container .other-section{
+                                    gap: 0 ;
+                                }
+                                .footer-container .icons{
+                                    gap: 20px;
+                                }
+                                .footer-container .icons img{
+                                    margin-left: 0;
+                                }
+                               
+               /* footer section style */
 
                         }
                        
