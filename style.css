@@ -13,7 +13,7 @@
 
 body{
     
-    height: 1000vh;
+    
 }
 
 
@@ -210,6 +210,8 @@ body{
                                         position: absolute;
                                         top: -175px;
                                         right: -175px;
+
+                                        filter: drop-shadow(-5px 10px 4px);
                                         
                                      }
                                      
@@ -387,7 +389,7 @@ body{
                                                 height: 530px;
                                                 background: url(./assets/news-letter-bg.png);
                                                 background-repeat: no-repeat;
-                                                background-size: cover;
+                                                background-size:cover;
 
                                                 display: flex;
                                                 justify-content: center;
@@ -409,6 +411,9 @@ body{
                                                 height: 64px;
                                                 padding-left: 15px;
                                             }
+                                            main .join-section input:focus{
+                                                outline: none;
+                                            }
                                             main .join-section input[type="email"]::-webkit-input-placeholder{
                                                 font-family: "Inter";
                                                 font-weight: 400;
@@ -426,6 +431,7 @@ body{
                                                 font-family: "Inter";
                                                 font-weight: 600;
                                                 font-size: 16px;
+                                                cursor: pointer;
                                             }
 
                                             main .join-section .join-input{
@@ -437,6 +443,71 @@ body{
 
                 
 /*     main section style    */
+
+
+
+
+
+
+
+
+                            /* footer section style */
+                                          
+                                            .footer-section{
+                                                padding: 50px 160px;
+                                            }
+                                            .footer-container{
+                                                display: flex;
+                                                
+                                                gap: 20px;
+                                            }
+                                            .footer-container .logo-section{
+                                                width: 40%;
+                                                
+                                            }
+                                            .footer-container .logo-section p{
+                                                width: 76%;
+                                            }
+                                            
+
+                                            .footer-container .other-section{
+                                                display: flex;
+                                                justify-content: space-between;
+                                                gap: 50px;
+
+                                                width: 60%;
+                                                
+                                            }
+
+
+                                            
+                                            .footer-container .link-section li{
+                                                list-style: none;
+                                                margin-bottom: 35px;
+                                                
+                                            }
+                                            .footer-container .link-section a{
+                                                text-decoration: none;
+                                                color: gray;
+                                                
+                                            }
+                                            .footer-container .link-section a:hover{
+                                                text-decoration: underline;
+                                            }
+
+                                            .footer-container .social-icon img{
+                                                margin-left: 20px;
+                                            }
+                                            .footer-container .icons{
+                                                display: flex;
+                                                align-items: center;
+                                            }
+                                            
+                                            
+
+                                             
+                                                        
+                            /* footer section style */
 
 
 
